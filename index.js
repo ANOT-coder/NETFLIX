@@ -6,9 +6,9 @@ app.use(express.json());
 let moviesList = [];
 
 //routes
-app.get("/say-HELLO", (req, res) => {
-  return res.status(200).send("Hello ..");
-});
+// app.get("/say-HELLO", (req, res) => {
+//   return res.status(200).send("Hello ..");
+// });
 
 // add movie
 app.post("/movie/add", (req, res) => {
